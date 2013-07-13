@@ -10,6 +10,7 @@ License: GPL2
 */
 
 add_action( 'init', 'create_post_type' );
+
 function create_post_type() {
 	register_post_type( 'veoni_wine',
 		array(
